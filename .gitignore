@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+#EDA/simulator artefacts
+*.log
+*.out
+*.png
 
 # Distribution / packaging
 .Python
