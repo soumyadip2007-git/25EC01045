@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 print("Python :",sys.version.split()[0])
 print("numpy version is:",np.__version__)
-print("pandas :",pd.__version__)
+print("pandas version :",pd.__version__)
 print("matplotlib :",matplotlib.__version__)
 
 plt.plot([0,1,2,3],[0,1,4,9],marker = "o")
