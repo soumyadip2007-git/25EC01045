@@ -1,0 +1,4 @@
+Internet checked : passed
+ping 14.139.1.126 : passed
+Whitelist check http://14.139.1.126/ : passed
+port checks (5280,5281,5282): passed on every port
