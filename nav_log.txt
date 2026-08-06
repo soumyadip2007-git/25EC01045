@@ -1,0 +1,13 @@
+mkdir  25EC01045 (in home directory)
+cd 25EC01045  (to go to that folder)
+mkdir tcad_sims
+mkdir scripts
+ls -l
+touch structure_check.txt
+cd (to go to root directory)
+cd ~/25EC01045/scripts (to land directly into scripts)
+pwd (to confirm present working directory)
+cd .. ( to go to 25EC01045 directory)
+cd tcad_sims 
+cd .. ( to go to 25EC01045 directory)
+touch nav_log.txt
