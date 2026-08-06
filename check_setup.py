@@ -5,7 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 print("Python :",sys.version.split()[0])
-print("numpy :",np.__version__)
+print("numpy version is:",np.__version__)
 print("pandas :",pd.__version__)
 print("matplotlib :",matplotlib.__version__)
 
