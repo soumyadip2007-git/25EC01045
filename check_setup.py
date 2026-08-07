@@ -12,6 +12,6 @@ print("matplotlib :",matplotlib.__version__)
 
 plt.plot([0,1,2,3],[0,1,4,9],marker = "o")
 plt.title("If you can see this window, the setup works")
-plt.xlabel("x axis --> ")
-plt.ylabel("x squared or y axis")
+plt.xlabel("x axis ")
+plt.ylabel("x squared ")
 plt.show()
