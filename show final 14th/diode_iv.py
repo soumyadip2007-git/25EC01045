@@ -8,33 +8,18 @@ v_t=0.02585
 x=1
 
 
-<<<<<<< HEAD
-for i in n:
-    def f(v_d):
-        return i_s*(np.exp(v_d/(i*v_t)))
-    i_d=f(v_d)
-    plt.subplot(1,2,1)
-    plt.semilogy(v_d,i_d,label=f"Diode Characteristics with ideality factor {i}")
-    plt.xlabel("$V_D$")
-    plt.ylabel("$I_D$")
-    plt.legend()
-    plt.title("Diode character $I_D$ vs $V_D$ ")
-    plt.grid(True)
-    x+=1
-=======
 # for i in n:
 #     def f(v_d):
 #         return i_s*(np.exp(v_d/(i*v_t)))
 #     i_d=f(v_d)
 #     plt.subplot(1,2,1)
-#     plt.plot(v_d,i_d,label=f"Diode Characteristics with ideality factor {i}")
+#     plt.semilogy(v_d,i_d,label=f"Diode Characteristics with ideality factor {i}")
 #     plt.xlabel("$V_D$")
 #     plt.ylabel("$I_D$")
 #     plt.legend()
 #     plt.title("Diode character $I_D$ vs $V_D$ ")
 #     plt.grid(True)
 #     x+=1
->>>>>>> branch_check
 for i in n:
     def f(v_d):
         return i_s*(np.exp(v_d/(i*v_t)))

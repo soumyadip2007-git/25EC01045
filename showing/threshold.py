@@ -16,9 +16,4 @@ id_win=id[peak_idx-2:peak_idx+1]
 m,c=np.polyfit(vgs_win,id_win,1)
 
 vt = -c/m
-<<<<<<< HEAD
 print("Threshold voltage = ",vt)
-=======
-print("Threshold voltage = ",vt)
-print(f"peak gm is {gm[peak_idx]} and corresponding vgs is {peak_idx}")
->>>>>>> branch_check

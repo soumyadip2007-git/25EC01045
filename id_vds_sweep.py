@@ -4,6 +4,12 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 df = pd.read_csv(r"/home/soumyadip/25EC01045/MOSFET_ID_VDS.csv")
+<<<<<<< HEAD
+=======
+print(df.columns)
+print(df.shape)
+print(df.describe())
+>>>>>>> branch_check
 plt.figure(1, figsize=(10,6))
 
 for vgs,group in df.groupby("V_GS (V)"):
