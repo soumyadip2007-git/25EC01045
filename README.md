@@ -9,14 +9,12 @@ Lab work for IEDA Tools course
 |\
 | * f7a8baf (origin/master, master) This repo is for my Lab Work of IEDA Course
 * 3ef6f00 Initial commit
-<<<<<<< HEAD
 Report Commit hash
 2f47c70495c809d3a3c383f1e5267601c5cc6772
 
 In linear scale the, id in case of ideality factor 1.5 and 2 are much lower than that at ideality factor1. But in logarithmic scale, the graphs are linear and I can distinguish them and pedict a value of those id at ideality factor 1.5 and 2.
 
 In linear scale they seem close to zero. It's not possible to find out their actual value.
-=======
 The graph in case of linear, we can not determine the value of id at ideality factor 1.5 and 2
 but in log scale we can determine it
 
@@ -36,4 +34,3 @@ soumyadip@Soumyadip:~/25EC01045$ git log --oneline --graph
 * 3ef6f00 Initial commit
 
 
->>>>>>> branch_check
