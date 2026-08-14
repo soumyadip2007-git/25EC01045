@@ -17,6 +17,7 @@ for i in n:
     plt.xlabel("$V_D$")
     plt.ylabel("$I_D$")
     plt.legend()
+    plt.title("Diode character $I_D$ vs $V_D$ ")
     plt.grid(True)
     x+=1
 for i in n:
@@ -28,7 +29,10 @@ for i in n:
     plt.semilogy(g_d,i_d,label=f"Diode Conductance with ideality factor {i}")
     plt.xlabel("$g_D$")
     plt.ylabel("$I_D$")
+    plt.title("Doide small signal Conductance $g_D$ vs $V_D$")
     plt.legend()
     plt.grid(True)
     x+=1
+plt.suptitle("Diode Characteristics")
+plt.savefig("Diode I_D vs V_D and g_D vs V_D logarithmic.png")
 plt.show()
