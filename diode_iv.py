@@ -25,7 +25,7 @@ for i in n:
     i_d=f(v_d)
     plt.subplot(1,2,2)
     g_d = np.gradient(i_d,v_d)
-    plt.plots(g_d,i_d,label=f"Diode Conductance with ideality factor {i}")
+    plt.semilogy(g_d,i_d,label=f"Diode Conductance with ideality factor {i}")
     plt.xlabel("$g_D$")
     plt.ylabel("$I_D$")
     plt.legend()
