@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 
+print("19/01/2007")
 print("My Roll Number is 25EC01045")
 print("Python :",sys.version.split()[0])
 print("numpy version is:",np.__version__)

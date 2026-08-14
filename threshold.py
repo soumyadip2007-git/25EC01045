@@ -17,3 +17,4 @@ m,c=np.polyfit(vgs_win,id_win,1)
 
 vt = -c/m
 print("Threshold voltage = ",vt)
+print(f"peak gm is {gm[peak_idx]} and corresponding vgs is {peak_idx}")

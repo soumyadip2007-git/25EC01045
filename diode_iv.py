@@ -13,7 +13,7 @@ x=1
 #         return i_s*(np.exp(v_d/(i*v_t)))
 #     i_d=f(v_d)
 #     plt.subplot(1,2,1)
-#     plt.semilogy(v_d,i_d,label=f"Diode Characteristics with ideality factor {i}")
+#     plt.plot(v_d,i_d,label=f"Diode Characteristics with ideality factor {i}")
 #     plt.xlabel("$V_D$")
 #     plt.ylabel("$I_D$")
 #     plt.legend()
