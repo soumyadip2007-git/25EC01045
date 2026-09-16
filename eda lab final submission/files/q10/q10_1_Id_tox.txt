@@ -1,0 +1,5 @@
+	Id_on [V_DS = 0.4V, V_GS=1.5V]	  Id_off [V_DS = 0.4V, V_GS=0V]		V_TH      V_Breakdown 
+(5nm)->	    0.00030358012555 A           	 9.01525057115e-06 A		0.515V		0.056705958931	V
+(2.932nm)-> 0.000542179570156 A			 9.65230953918e-06 A		0.402V	      	0.0438342207547 V
+                                              
+(Vth has been measured at 3.4 nm due to convergence issue)

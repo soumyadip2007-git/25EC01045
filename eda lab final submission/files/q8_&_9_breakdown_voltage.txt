@@ -1,0 +1,2 @@
+Q8) The breakdown voltage is = 0.056705958931V, corresponding current 1e-06 A. (without bulk)
+Q9) The breakdown voltage is = 0.204382799742V, corresponding current 1e-06 A. (with bulk)

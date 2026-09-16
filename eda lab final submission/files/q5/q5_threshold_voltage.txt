@@ -1,0 +1,2 @@
+The threshold voltage at Vds=0.05 V is 0.4804 V.
+The threshold voltage at Vds=0.4 V is 0.3790 V.

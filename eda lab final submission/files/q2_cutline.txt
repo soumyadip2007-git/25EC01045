@@ -1,0 +1,10 @@
+Horizontal Cutline:
+
+From plot, the channel length is 0.035249
+From tdr(figure) the channel length is 0.0358647
+
+Vertical Cutline :
+Peak channel doping is 1e20.
+
+ 
+

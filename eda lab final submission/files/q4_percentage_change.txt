@@ -1,0 +1,4 @@
+percentage change = 1.129%
+I_d for with refinment (1nm) = 0.0011419 A [V_g = 3V]
+I_d for without refinment  = 0.00115997 A [V_g = 3V]
+For 0.3nm there was convergence issue.
