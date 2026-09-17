@@ -1,2 +1,2 @@
-The sub-threshold slope at Vds=0.05 V is 90.64 mV/dec.
-The sub-threshold slope at Vds=0.4 V is 201.03 mV/dec.
+The sub-threshold slope at Vds=0.05 V is 208.70 mV/dec.
+The sub-threshold slope at Vds=0.4 V is 462.85 mV/dec.

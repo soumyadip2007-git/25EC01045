@@ -8,7 +8,6 @@ __pycache__/
 #EDA/simulator artefacts
 *.log
 *.out
-*.png
 
 # Distribution / packaging
 .Python
