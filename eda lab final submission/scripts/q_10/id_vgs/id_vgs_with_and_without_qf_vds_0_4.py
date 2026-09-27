@@ -1,3 +1,5 @@
+
+#!/usr/bin/env python
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -9,8 +11,8 @@ x=data["drain TotalCurrent(IdVg_n128_des) X"]
 data_1=data["drain TotalCurrent(IdVg_n128_des) Y"]
 data_2=data1["drain TotalCurrent(IdVg_n128_des) Y"]
 
-line1,=plt.plot(x,data_1,label="with $Q_f$")
-line2,=plt.plot(x,data_2,label="without $Q_f$")
+line1,=plt.plot(x,data_1,label="without $Q_f$")
+line2,=plt.plot(x,data_2,label="with $Q_f$")
 
 win=0.1
 mask=(x>(1.5-win)) & (x<(1.5+win))
@@ -43,4 +45,5 @@ plt.xlabel("$V_{GS}$ ---->")
 plt.ylabel("$I_D$ ---->")
 plt.text(0,0.007,f"Threshold voltage without $Q_f$ and $V_{{DS}}$=0.4V is {-coeff1[1]/coeff1[0]} V",fontsize=10)
 plt.text(0,0.006,f"Threshold voltage with $Q_f$ and $V_{{DS}}$=0.4V is {-coeff2[1]/coeff2[0]} V",fontsize=10)
+plt.savefig("id_vgs with and without qf vds=0.4.png")
 plt.show()
